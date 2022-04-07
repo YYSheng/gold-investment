@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img alt="Vue logo" src="../assets/logo.png" @click="onClick">
     <HelloWorld msg="Welcome to Your Gold Investment App"/>
   </div>
 </template>
@@ -13,6 +13,11 @@ export default {
   name: 'Home',
   components: {
     HelloWorld
+  },
+  methods: {
+    onClick () {
+      this.$router.push({ path: '/About' })
+    }
   }
 }
 </script>
