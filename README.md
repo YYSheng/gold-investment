@@ -1,4 +1,6 @@
 # goldInvestment
+> 本项目为黄金投资全球用户端，提供客服咨询功能。
+> 代码发布操作：build后生成的docs目录push到仓库。
 
 ## Project setup
 ```
