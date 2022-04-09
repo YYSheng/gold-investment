@@ -1,14 +1,21 @@
 // 客服组
 var waList = [
-  'https://wa.me/85268043367',
-  'http://wa.me/85255757915',
-  'http://wa.me/85256436198',
-  'http://wa.me/85256436198'
+  'https://wa.me/85269223460',//徐佳伟
+  'https://wa.me/85256436198',//陈添添
+  'https://wa.me/85296427694',//胡白霞
+  'https://wa.me/85296401553',//邱
+  'https://wa.me/85292757956',//梁
+  'https://wa.me/85254973606',//曾宪华
+  'https://wa.me/85296433048',//刘海涛
 ]
 var tgList = [
-  'https://t.me/Leong_bin',
-  'https://t.me/Ubest_Mellissa',
-  'https://t.me/eileen3699'
+  'https://t.me/Ubest_Mellissa',//徐佳伟
+  'hhttps://t.me/Eileen1106',//陈添添
+  'https://t.me/Anna_hu',//胡白霞
+  'https://t.me/UbestAnna',//邱
+  'https://t.me/eileen7956',//梁
+  'https://t.me/AnalystAnna',//曾宪华
+  'https://t.me/Ashley_377',//刘海涛
 ]
 
 // 返回0到number-1之间的随机整数
