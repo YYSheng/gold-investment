@@ -24,6 +24,9 @@ html,
 body {
     overflow-x: hidden;
 }
+img{
+	line-height: 0;
+}
 @-webkit-keyframes yys-bounce {
     to {
         transform: translate3d(-2rem, 0, 0);
@@ -35,18 +38,22 @@ body {
 	    transform: translate3d(-2rem, 0, 0);
 	}
 }
+
 .yys-float{
 	position: fixed;
-	width: 50px;
-	height: 120px;
+	text-align: center;
+	width: 80px;
+	height: 100px;
 	right: 0;
-	bottom: 20%;	
+	bottom: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 .yys-img{
-	display: block;
 	width: 40px;
 	height: 40px;
-	margin-bottom: 20px;
 	-webkit-animation: 0.8s yys-bounce infinite alternate;
 	animation: 0.8s yys-bounce infinite alternate;
 }
